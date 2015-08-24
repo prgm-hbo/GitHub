@@ -35,32 +35,38 @@ Make the current commit the only (first) commit
 `A brute-force approach, also removes the configuration of the repo
 <http://stackoverflow.com/questions/9683279/make-the-current-commit-the-only-initial-commit-in-a-git-repository>`_
 
+- Local repo (local disk)
+  
+  Supprime aussi les fichiers
+  
+  ::
+  
+      $ git reset --hard
+  
+  Supprime seulement l'historique, pas les fichiers
+  
+  ::
+  
+      $ git reset --soft <commit-hash>
+  
+  ... des 2 derniers commits
+  
+  ::
+  
+      $ git reset --soft HEAD~2
+      
 - Remote repo on GitHub server
   
   Remove all commits from GitHub server: back to "Initial commit" !
 
   ::
-
+      git push -f origin
+      ou ?
       git push -f origin HEAD^:master
 
-- Local repo on local disk
-  
-  Delete all, clone from server than add all files
-  
-  Supprime les fichiers
-  $ git reset --hard
-  
-  Supprime l'historique
-  des 2 derniers commits
-  
-  $ git reset --soft <commit-hash>
-  $ git reset --soft HEAD~2
-  
+Old
   
   $ git rebase --onto <commit-id>^ <commit-id>
-  
-  Old
-  
    - Remove all history
 
      .. code-block:: bash
