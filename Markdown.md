@@ -10,11 +10,15 @@
 
 - [nodejs api](https://github.com/nodejs/node/tree/master/doc/api)
 
-    indent = 4 spaces
-    with = 80 col
-    comment = `<!-- -->`
 
 ## Syntax
+
+<!-- Comment -->
+
+with = 80 col
+
+comment = `<!-- Comment -->`
+
 
 ### Headings
 
@@ -50,18 +54,14 @@ http://www.google.com/,
 [google 1](http://www.google.com/),
 [google 2](http://www.google.com/ "title 2")
 
-```
-[text][ref-url]
-[ref-url]: url, url "title", <url>, <url> (title)
-```
+    [text][ref-url]
+    [ref-url]: url, url "title", <url>, <url> (title)
 
 [google 3][ref-3]
 [ref-3]: http://www.google.com/ "title 3"
   
-```
-[text]
-[text]: url, url "title", <url>, <url> (title)
-```
+    [text]
+    [text]: url, url "title", <url>, <url> (title)
 
 [google 4], [google 5], [google 6]
 [google 4]: http://www.google.com/
@@ -71,34 +71,28 @@ http://www.google.com/,
 
 ### Images
 
-```
-![alt](img-url)
-![](img-url)
-![](img-url "title")
-```
+    ![alt](img-url)
+    ![](img-url)
+    ![](img-url "title")
 
 ![](http://www.google.com/s2/favicons?domain=git-scm.com),
 ![](http://www.google.com/s2/favicons?domain=git-scm.com "git")
 
 **And links**
 
-```
-[![](img-url](url)
-[![](img-url "title")](url)
-[![](img-url "title") text](url)
-[![](img-url "title") text](url "title")
-```
+    [![](img-url](url)
+    [![](img-url "title")](url)
+    [![](img-url "title") text](url)
+    [![](img-url "title") text](url "title")
 
 [![](http://www.google.com/s2/favicons?domain=git-scm.com)](http://git-scm.com/doc/),
 [![](http://www.google.com/s2/favicons?domain=git-scm.com "git")](http://git-scm.com/doc/),
 [![](http://www.google.com/s2/favicons?domain=git-scm.com "git") Git - Documentation](http://git-scm.com/doc/)
 [![](http://www.google.com/s2/favicons?domain=git-scm.com "git") Git - Documentation](http://git-scm.com/doc/ "Goto git")
 
-```
-[![][ref-img] text][ref-url]
-[ref-img]: img-url "title"
-[ref-url]: url "title"
-```
+    [![][ref-img] text][ref-url]
+    [ref-img]: img-url "title"
+    [ref-url]: url "title"
 
 [![][git-ico] Git - Documentation][git-doc]
 [git-ico]: http://www.google.com/s2/favicons?domain=git-scm.com "git"
@@ -107,12 +101,10 @@ http://www.google.com/,
 
 ### Lists
 
-```
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-```
+    * Item 1
+    * Item 2
+      * Item 2a
+      * Item 2b
 
 * Item 1
 * Item 2
@@ -122,10 +114,8 @@ http://www.google.com/,
 
 ### Task list
 
-```
-- [x] Aaaa
-- [ ] Bbbb
-```
+    - [x] Aaaa
+    - [ ] Bbbb
 
 - [x] Aaaa
 - [ ] Bbbb
@@ -133,6 +123,8 @@ http://www.google.com/,
 
 ### Blockquotes
 
+Text indent with 4 spaces.
+ 
 ```
 > Aaaa
 >> Bbbb
@@ -148,10 +140,8 @@ http://www.google.com/,
 
 ### Lines
 
-```
----
-***
-```
+    ---
+    ***
 
 ---
 ***
@@ -159,11 +149,9 @@ http://www.google.com/,
 
 ### Tables
 
-```
-Header 1 | Header 2
--------- | --------
-Aaaa     | Bbbb
-```
+    Header 1 | Header 2
+    -------- | --------
+    Aaaa     | Bbbb
 
 Header 1 | Header 2
 -------- | --------
@@ -172,7 +160,19 @@ Aaaa     | Bbbb
 
 ### Code
 
+    function toto() {
+      // comment
+      call();
+    }
+
 ```javascript
+function toto() {
+  // comment
+  call();
+}
+```
+
+``` javascript
 function toto() {
   // comment
   call();
