@@ -164,10 +164,10 @@ Text indent = 4 spaces
       call();
     }
 
-javascript
+Syntax highlight
 
     ``` javascript
-    ...
+    
     ```
 
 ``` javascript
