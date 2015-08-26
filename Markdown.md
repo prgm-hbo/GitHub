@@ -1,10 +1,10 @@
-# Markdown syntax
+# Markdown
 
-- <https://guides.github.com/features/mastering-markdown/>
-- <http://dillinger.io/>
-- <https://stackedit.io/editor>
+- https://guides.github.com/features/mastering-markdown/
+- http://dillinger.io/
+- https://stackedit.io/editor
 - [Markdown Syntax Cheat Sheet](http://markable.in/file/aa191728-9dc7-11e1-91c7-984be164924a/)
-- <https://daringfireball.net/projects/markdown/syntax>
+- https://daringfireball.net/projects/markdown/syntax
 
 ## Exemples
 
@@ -18,22 +18,6 @@
 
 ### Headings
 
-```
-# Header 1
-## Header 2
-### Header 3
-...
-```
-
-test 1
-
-  # Header 1
-  ## Header 2
-  ### Header 3
-  ...
-
-test 2
-
     # Header 1
     ## Header 2
     ### Header 3
@@ -41,12 +25,10 @@ test 2
 
 ### Styles
 
-```
-*Italic*
-**Bold**
-~~strikethrough~~
-`some code`
-```
+    *Italic*
+    **Bold**
+    ~~strikethrough~~
+    `some code`
 
 *Italic*,
 **Bold**,
@@ -56,18 +38,14 @@ test 2
 
 ### Links
 
-```
-url
-<url>
-```
+    url
+    <url>
 
 http://www.google.com/,
 <http://www.google.com/>
 
-```
-[text](url)
-[text](url "title")
-```
+    [text](url)
+    [text](url "title")
 
 [google 1](http://www.google.com/),
 [google 2](http://www.google.com/ "title 2")
