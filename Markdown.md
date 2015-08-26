@@ -164,12 +164,12 @@ Text indent = 4 spaces
       call();
     }
 
-    \`\`\` javascript
-    ...
-    \`\`\`
+javascript
 
-` \`\`\` javascript`
- 
+    ``` javascript
+    ...
+    ```
+
 ``` javascript
 function toto() {
   // comment
