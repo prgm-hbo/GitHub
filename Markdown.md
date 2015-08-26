@@ -35,23 +35,19 @@ with = 80 col
     *Italic*
     **Bold**
     ~~strikethrough~~
-    `some code`
-    ``some code``
+    `some code`, ``some code``
 
 *Italic*,
 **Bold**,
 ~~strikethrough~~,
-`some code`,
-``some code``
+`some code`, ``some code``
 
 
 ### Links
 
-    url
-    <url>
+    url, <url>
 
-http://www.google.com/,
-<http://www.google.com/>
+http://www.google.com/, <http://www.google.com/>
 
     [text](url)
     [text](url "title")
