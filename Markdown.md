@@ -6,6 +6,16 @@
 - [Markdown Syntax Cheat Sheet](http://markable.in/file/aa191728-9dc7-11e1-91c7-984be164924a/)
 - <https://daringfireball.net/projects/markdown/syntax>
 
+## Exemples
+
+- [nodejs api](https://github.com/nodejs/node/tree/master/doc/api)
+
+    indent = 4 spaces
+    with = 80 col
+    comment = `<!-- -->`
+
+## Syntax
+
 ### Headings
 
 ```
@@ -15,13 +25,19 @@
 ...
 ```
 
-# Header 1
-## Header 2
-### Header 3
-#### Header 4
-##### Header 5
-###### Header 6
+test 1
 
+  # Header 1
+  ## Header 2
+  ### Header 3
+  ...
+
+test 2
+
+    # Header 1
+    ## Header 2
+    ### Header 3
+    ...
 
 ### Styles
 
