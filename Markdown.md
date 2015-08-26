@@ -13,11 +13,12 @@
 
 ## Syntax
 
-<!-- Comment -->
-
 with = 80 col
 
-comment = `<!-- Comment -->`
+
+### Comment
+
+    <!-- Comment -->
 
 
 ### Headings
@@ -123,14 +124,10 @@ http://www.google.com/,
 
 ### Blockquotes
 
-Text indent with 4 spaces.
- 
-```
-> Aaaa
->> Bbbb
->
-> Cccc
-```
+    > Aaaa
+    >> Bbbb
+    >
+    > Cccc
 
 > Aaaa
 >> Bbbb
@@ -160,18 +157,15 @@ Aaaa     | Bbbb
 
 ### Code
 
+Text indent = 4 spaces
+
     function toto() {
       // comment
       call();
     }
 
-```javascript
-function toto() {
-  // comment
-  call();
-}
-```
-
+`` ``` javascript``
+ 
 ``` javascript
 function toto() {
   // comment
@@ -188,16 +182,14 @@ function toto() {
 
 http://www.emoji-cheat-sheet.com/
 
-```
-:tada:
-:exclamation:
-:point_up:
-:hand:
-:thumbsup:
-:zap:
-:sunny:
-:one:
-```
+    :tada:
+    :exclamation:
+    :point_up:
+    :hand:
+    :thumbsup:
+    :zap:
+    :sunny:
+    :one:
 
 :tada: |
 :exclamation: |
