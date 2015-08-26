@@ -18,6 +18,8 @@ with = 80 col
 
 ### Comment
 
+<!-- Comment -->
+
     <!-- Comment -->
 
 
@@ -34,11 +36,13 @@ with = 80 col
     **Bold**
     ~~strikethrough~~
     `some code`
+    ``some code``
 
 *Italic*,
 **Bold**,
 ~~strikethrough~~,
-`some code`
+`some code`,
+``some code``
 
 
 ### Links
