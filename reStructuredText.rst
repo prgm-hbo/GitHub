@@ -6,6 +6,7 @@ reStructuredText syntax
 - http://sphinx-doc.org/rest.html
 - http://docutils.sourceforge.net/docs/user/rst/quickref.html
 - http://johnmacfarlane.net/pandoc/
+- https://gist.github.com/dupuy/1855764
 
 ========
 Headings
