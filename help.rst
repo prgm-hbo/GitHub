@@ -59,7 +59,8 @@ Make the current commit the only (first) commit
 
 Old
   
-  $ git rebase --onto <commit-id>^ <commit-id>
+  ::
+    $ git rebase --onto <commit-id>^ <commit-id>
   
   - Remove all history
 
@@ -74,16 +75,16 @@ Old
       $ git rm --cached -r .
       $ git reset --hard
       
-   - Reconstruct the Git repo with only the current content ::
+  - Reconstruct the Git repo with only the current content ::
 
-     $ git init
-     $ git add .
-         
-   - Add repo to GitHub client and Publish
+    $ git init
+    $ git add .
+        
+  - Add repo to GitHub client and Publish
 
-     or ::
-     
-       $ git commit -m "Initial commit"
-       $ git remote add <repo> https://github.com/<user>/<repo>
-       $ git push -u --force <repo> master
+    or ::
+    
+      $ git commit -m "Initial commit"
+      $ git remote add <repo> https://github.com/<user>/<repo>
+      $ git push -u --force <repo> master
 
