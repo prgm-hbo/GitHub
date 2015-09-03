@@ -24,7 +24,7 @@ Pour un utilisateur *\<user\>*, un projet *\<repo\>*
 	
 	Accès `http://<user>.github.io`
 
-- Hébergement web d'un projet *\<repo>\*
+- Hébergement web d'un projet *\<repo\>*
 	
 	Créer une branche `gh-pages` dans le projet
 	
