@@ -1,6 +1,7 @@
 # Markdown
 
 - https://guides.github.com/features/mastering-markdown/
+- https://help.github.com/articles/writing-on-github/
 - http://dillinger.io/
 - https://stackedit.io/editor
 - [Markdown Syntax Cheat Sheet](http://markable.in/file/aa191728-9dc7-11e1-91c7-984be164924a/)
@@ -166,11 +167,11 @@ Text indent = 4 spaces
 
 Syntax highlight
 
-    ``` javascript
+    ```javascript
     
     ```
 
-``` javascript
+```javascript
 function toto() {
   // comment
   call();
