@@ -16,9 +16,9 @@ https://help.github.com/
 
 ## Doc, gh-pages
 
-Pour un utilisateur * <user> *, un projet **<repo>**
+Pour un utilisateur \<user\>, un projet *\<repo\>*
 
-- Hébergement web d'un *<user>*
+- Hébergement web d'un <user>
 	
 	Créer un projet nommé `<user>.github.com`
 	
