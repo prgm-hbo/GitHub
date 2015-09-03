@@ -16,7 +16,7 @@ https://help.github.com/
 
 ## Doc, gh-pages
 
-prgm-hbo.github.io
+http://prgm-hbo.github.io
 
 Pour un utilisateur *\<user\>*, un projet *\<repo\>*
 
