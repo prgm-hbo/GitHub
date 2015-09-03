@@ -60,6 +60,7 @@ Make the current commit the only (first) commit
 Old
   
   ::
+  
     $ git rebase --onto <commit-id>^ <commit-id>
   
   - Remove all history
