@@ -22,7 +22,7 @@ Pour un utilisateur *\<user\>*, un projet *\<repo\>*
 
 - Hébergement web d'un *\<user\>*
 	
-	Créer un projet nommé `<user>.github.com`
+	Créer un projet nommé `<user>.github.com` ou `<user>.github.io` 
 	
 	Accès `http://<user>.github.io`
 

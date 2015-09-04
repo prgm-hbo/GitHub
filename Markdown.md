@@ -82,7 +82,7 @@ http://www.google.com/, <http://www.google.com/>
 
 **And links**
 
-    [![](img-url](url)
+    [![](img-url)](url)
     [![](img-url "title")](url)
     [![](img-url "title") text](url)
     [![](img-url "title") text](url "title")
