@@ -205,11 +205,6 @@ http://www.emoji-cheat-sheet.com/
 :sunny: |
 :one:
 
-
-http://markable.in/file/f5127a38-d8d6-11e4-ac0d-00259026e590/
-
-:icon-plus:
-
 ### Special char
 
 ➥
